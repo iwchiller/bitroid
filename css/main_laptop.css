@@ -1,0 +1,275 @@
+@media screen and (max-width: 1439px) 
+{
+
+main {
+    padding-left: 45px;
+    padding-right: 0;
+    padding-bottom: 0;
+}    
+
+.main_section {
+    height: 600px;
+    padding-top: 105px;
+    background-image: url('../img/chart_dynamic_laptop.png');
+    background-position-y: top;    
+}
+
+.main_section > .info_block {
+    width: 525px;
+}
+
+.main_section > .ellipse_blue {
+    left: 207px;
+    top: 233px;
+}
+
+.main_section > .ellipse_green {
+    left: 68px;
+    top: 52px;
+}
+
+.main_section > .info_block > .content {
+    margin-top: 18px;
+    font-size: 16px;
+}
+
+.main_section > .info_block > .content {
+    height: 200px;
+}
+
+.buttons_block > button::after {
+    content: 'Заказать сайт';
+}
+
+.recommendations_section {
+    height: auto;
+    padding-top: 100px;
+    padding-right: 40px;
+}
+
+.recommendations_section > h2 {
+    width: 573px;
+    margin-bottom: 5px;
+}
+
+.recommendations_section > .ellipse_green {
+    left: 166px;
+    top: 286px;
+}
+
+.recommendations_section > .ellipse_blue {
+    left: 409px;
+    top: 401px;
+}
+
+.recommendations_section > .recommendations_items {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.recommendation {
+    width: 100%;
+    height: auto;
+    padding: 16px 20px 10px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommendation > .left_block {
+    width: 380px;
+    height: auto;
+}
+
+.recommendation > .image_block > img {
+    width: 198px;
+    height: 107px;
+}
+
+.structure_section {
+    padding-top: 100px;
+    padding-right: 45px;
+}
+
+.structure_section > .title {
+    padding-right: 70px;
+    height: auto;
+}
+
+.structure_section > .title > h2 {
+    margin-bottom: 12px;
+}
+
+.structure_section > .title > .subtitle {
+    font-size: 14px;
+}
+
+.structure_section > .stacks {
+    flex-direction: column;
+    padding-top: 40px;
+    gap: 15px;
+}
+
+.stacks > .stack {
+    width: 100%;
+    height: auto;
+    padding-right: 25px;
+    padding-bottom: 20px;;
+}
+
+.stacks > .stack > h3 {
+    padding-bottom: 5px;
+}
+
+.structure_section h4 {
+    margin-top: 20px;
+}
+
+.cases_section {
+    padding-top: 95px;
+    height: 490px;
+}
+
+.cases_section > h2 {
+    padding-bottom: 15px;
+}
+
+.carousel_wrap {
+    margin-top: 35px;
+    margin-left: 0;
+    /* width: 678px; */
+    width: 100%;
+}
+
+.nav-btn {
+    display: none;
+}
+
+.cases_carousel .item {
+    height: 173px;
+}
+
+.case {
+    width: 331px;
+    height: 173px;    
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.cases_buttons {
+    text-align: center;
+}
+
+.cases_section > button {
+    top: auto;
+    bottom: 0px;
+    right: calc(50% - 78px);
+    
+}
+
+.faq_section {
+    padding-top: 100px;
+    background-image: none;
+    padding-right: 45px;
+    margin-bottom: 58px;
+}
+
+    
+.faq_section > h2 {
+    margin-bottom: 10px;
+}
+
+.faq_accordion {
+    width: 100%;
+}
+
+.faq_accordion > .question {
+    padding: 8px 20px 8px 20px;
+    
+}
+
+.question > .header > .title {
+    font-size: 16px;
+}
+
+.question > .header > .icon {
+    font-size: 24px;
+}
+
+.question_expand {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.question_title_expand {
+    font-size: 18px !important;
+    color: var(--color_green_1) !important;
+}
+
+.question_icon_expand {
+    color: var(--color_green_1) !important;
+}
+
+.question > .description {
+    margin-top: 15px;
+} 
+
+.dekstop_text_button {
+    position: absolute;
+    bottom: -59px;
+    left: 0;
+    color: var(--color_green_1) !important;
+}
+
+.getoffer_section {
+    padding-top: 110px;
+    padding-right: 45px;
+}
+
+.getoffer_section > .getoffer_block {
+    background-image: none;
+    padding: 35px 40px;
+    height: auto;
+}
+
+.getoffer_block > .getoffer_form {
+    width: 100%;
+    padding-top: 0;
+    padding-right: 0;
+}
+
+.getoffer_form > .subtitle {
+    margin-top: 13px;
+    margin-bottom: 38px;
+}
+
+.feedback {
+    gap: 13px 15px;
+    margin-left: 33px;
+    margin-right: 35px;
+}
+
+.feedback > .your_name {
+    width: 100%;
+}
+
+.feedback > .your_phone {
+    width: 100%;
+}
+
+.feedback button {
+    margin-top: 25px;
+    width: 250px;
+}
+
+.feedback button::after {
+    content: 'Заказать сайт на WordPress';
+}
+
+.getoffer_form .getoffer_checkbox {
+    margin-left: 35px;
+    margin-top: 8px;
+}
+
+}

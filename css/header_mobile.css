@@ -1,0 +1,22 @@
+@media screen and (max-width: 767px) 
+{
+
+header {
+    padding-left: 16px;
+    padding-right: 18px;
+} 
+
+.navigation_section > .logo_block > img {
+    width: 86px;
+    height: 28px;
+}
+
+header > .breadcrumb_section {
+    font-size: 14px;
+    flex-wrap: wrap;
+    gap: 2px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+}

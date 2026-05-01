@@ -1,0 +1,459 @@
+.main_section {
+    height: 800px;
+    position: relative;
+    background: url('../img/chart_dynamic.png') right center no-repeat;
+    padding-top: 200px;
+}
+
+.main_section > .ellipse_blue {
+    left: 440px;
+    top: 473px;
+    background: var(--color_blue_blur);
+
+}
+
+.main_section > .ellipse_green {
+    left: 105px;
+    top: 273px;
+    background: var(--color_green_1);
+}
+
+.main_section > .info_block {
+    position: relative;
+    width: 797px;
+    height: 420px;
+}
+
+.main_section > .info_block > .content {
+    font-size: 16px;
+    line-height: 130%;    
+    margin-top: 24px;
+    height: 170px;
+    overflow: hidden;
+}
+
+.main_section > .info_block > .buttons_block {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 16px;
+}
+
+.buttons_block > .icon_arrow_right {
+    font-size: 30px;
+
+}
+.buttons_block > button {
+    width: 200px;
+}
+
+.buttons_block > button::after {
+    content: 'Заказать';
+}
+
+.recommendations_section {
+    position: relative;
+    height: 732px;
+    padding-top: 150px;
+    padding-right: 60px;
+}
+
+.recommendations_section > .ellipse_green {
+    left: 305px;
+    top: 397px;
+    background: var(--color_green_1);
+}
+
+.recommendations_section > .ellipse_blue {
+    left: 738px;
+    top: 459px;
+    background: var(--color_blue_blur);
+}
+
+.recommendations_section > h2 {
+    position: relative;
+    display: block;
+    width: 871px;
+    height: 104px;
+    margin-bottom: 60px;
+}
+
+.recommendations_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.recommendation {
+    width: 424px;
+    padding: 30px 20px;
+    height: 418px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0px 4px 25px rgba(1, 8, 3, 0.08);    
+}
+
+.recommendation > .left_block {
+    overflow: hidden;
+    height: 160px;
+}
+
+.recommendation > .left_block > .description {
+    padding-top: 12px;
+}
+
+.structure_section {
+    padding-top: 150px;
+    padding-right: 60px;
+}
+
+.structure_section > .title {
+    padding-right: 235px;
+    height: 230px;
+}
+
+.structure_section > .title > h2 {
+    margin-bottom: 20px;    
+}
+
+.structure_section > .title > .subtitle {
+font-size: 18px;
+line-height: 130%;
+}
+
+.structure_section > .stacks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.stacks > .stack {
+    width: 648px;
+    height: 600px;
+    box-shadow: 0px 4px 25px rgba(1, 8, 3, 0.08);
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.stacks > .stack:last-child {
+    background: linear-gradient(282.56deg, #D3E7FE 7.81%, #D5EEE1 89.18%);    
+}
+
+.stacks > .stack > h3 {
+    padding-bottom: 10px;
+}
+
+.cases_section {
+    position: relative;
+    padding-top: 150px;
+    padding-right: 60px;
+    height: 665px;
+}
+
+.cases_section > h2 {
+    padding-bottom: 25px;
+}
+
+.cases_section > .subtitle {
+    font-size: 18px;
+}
+
+.cases_section > button {
+    position: absolute;
+    width: 200px;
+    top: 195px;
+    right: 60px;
+}
+
+.cases_section .ellipse_green {
+    left: 134px;
+    top: 390px;
+    background: var(--color_green_1);
+}
+
+.cases_section .ellipse_blue {
+    left: 494px;
+    top: 515px;
+    background: var(--color_blue_blur);
+}
+
+.carousel_wrap {
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.cases_carousel {
+    max-width: 1192px;
+    width: 100%;
+}
+
+.cases_carousel .item {
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.case {
+    width: 378px;
+    height: 292px;    
+    border-radius: 30px;
+    padding: 20px 60px 20px 24px;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: left;
+    box-shadow: 0px 4px 25px rgba(1, 8, 3, 0.08);
+    transition: 0.15s ease;
+}
+
+.case_left {
+    background: url('../img/cases01.png') right bottom no-repeat #FFFFFF;    
+}
+
+.case_center {
+    background: url('../img/cases02.png') right top no-repeat #FFFFFF;
+}
+
+.case_right {
+    background: url('../img/cases03.png') left top no-repeat #FFFFFF;    
+}
+
+.case:hover {
+    width: 400px;    
+    height: 330px;
+    box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.1);
+}
+
+.case_left:hover {
+    background-image: url('../img/cases01.png'), linear-gradient(98.54deg, #34AE6B 3.22%, #2587F9 86.86%);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right bottom, left top;     
+}
+
+.case_center:hover {
+    background-image: url('../img/cases02.png'), linear-gradient(98.54deg, #34AE6B 3.22%, #2587F9 86.86%);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right top, left top;
+}
+
+.case_right:hover {
+    background-image: url('../img/cases03.png'), linear-gradient(98.54deg, #34AE6B 3.22%, #2587F9 86.86%);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, left top;
+}
+
+.case:hover > h3, .case:hover > .tags > .category {
+    color: white;
+}
+
+.case:hover > .tags > .category {
+    border-color: white;
+}
+
+.case:hover > .description, .case:hover > .read_case {
+    display: block;
+}
+
+.category {
+    border: 1px solid var(--color_deep_gray);
+    border-radius: 30px;
+    padding: 4px 8px;
+}
+
+.case > .tags {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.case > .description {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: white;
+    display: none;
+}
+
+.case > .read_case {
+    margin-bottom: 25px;
+    color: white;
+    display: none;
+}
+
+.faq_section {
+    position: relative;
+    padding-top: 150px;
+    padding-right: 60px;
+    background: url('../img/faq_background.png') calc(100% - 60px) 220px no-repeat;
+}
+
+.faq_section > .ellipse_blue {
+    display: none;
+    background: var(--color_blue_blur);
+}
+
+.faq_section > .ellipse_green {
+    display: none;
+    background: var(--color_green_1);    
+}
+
+.faq_section > .ellipse_blue2 {
+    display: none;
+    background: var(--color_blue_blur);
+}
+
+.faq_section > .ellipse_green2 {
+    display: none;
+    background: var(--color_green_1);
+}
+
+.faq_section > h2 {
+    margin-bottom: 20px;
+}
+
+.faq_section > .subtitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.faq_section > .subtitle .icon_arrow_right {
+    font-size: 24px;
+}
+
+.faq_accordion {
+    width: 760px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.faq_accordion > .question {
+    width: 100%;
+    padding: 20px 40px 20px 40px;
+    background-color: white;
+    box-shadow: 0px 4px 25px rgba(1, 8, 3, 0.08);
+    border-radius: 20px;
+}
+
+.question_expand {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
+
+.question_title_expand {
+    color: var(--color_green_1) !important;
+}
+
+.question_icon_expand {
+    color: var(--color_green_1) !important;
+}
+
+.question > .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;    
+}
+
+.question > .header > .title {
+    width: 515px;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.question > .header > .icon {
+    font-size: 32px;
+}
+
+.question > .description {
+    display: none;
+    margin-top: 10px;
+}
+
+.getoffer_section {
+    padding-top: 65px;
+    padding-right: 60px;
+}
+
+.getoffer_section > .getoffer_block {
+    height: 560px;
+    box-shadow: 0px 4px 25px rgba(1, 8, 3, 0.08);
+    border-radius: 30px;
+    background: url('../img/get_offer.png') left top no-repeat;
+    display: flex;
+    justify-content: right;
+}
+
+.getoffer_block > .getoffer_form {
+    width: 730px;
+    padding-top: 40px;
+    padding-right: 60px;
+}
+
+.getoffer_form > h2 {
+    /* line-height: 47px; */
+    line-height: 120%;
+}
+
+.getoffer_form > .subtitle {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.feedback {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px 15px;
+    justify-content: space-between;    
+}
+
+.feedback > .your_name {
+    width: 47%;
+}
+
+.feedback > .your_phone {
+    width: 48%;
+}
+
+.feedback > .link_site {
+    width: 100%;
+}
+
+.feedback > .send_button {
+    width: 100%;
+    text-align: center;
+}
+
+.feedback button {
+    width: 225px;
+    margin-top: 18px;
+}
+
+.feedback button::after {
+    content: 'Получить консультацию';
+}
+
+.getoffer_form > table {
+    width: 100%;
+    border-spacing: 15px 11px;
+}
+
+.getoffer_form label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    display: block;
+    color: var(--color_gray);
+    cursor: pointer;
+}
+
+.getoffer_form .getoffer_checkbox {
+    margin-top: 23px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+}

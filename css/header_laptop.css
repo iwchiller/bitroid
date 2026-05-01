@@ -1,0 +1,49 @@
+@media screen and (max-width: 1439px) 
+{
+
+header {
+    padding-left: 45px;
+    padding-right: 45px;
+}    
+
+/* .navigation_section > .menu_block {
+    display: none;
+} */
+
+.navigation_section > .menu_block {
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    padding: 20px;
+    z-index: 1;
+    flex-direction: column;
+    align-items: start;
+    box-shadow: 0px 4px 25px rgba(1, 8, 3, 0.08);
+    border-radius: 20px;
+}
+
+.navigation_section > .menu_block > .icon_close {
+    display: block;
+}
+
+.navigation_section > .right_block {
+    gap: 20px;
+}
+
+.right_block > .discuss_button {
+    display: none;
+}
+
+.right_block > .phone {
+    display: none;
+}
+
+.right_block > .menu_icon_block {
+    display: block;
+}
+
+}

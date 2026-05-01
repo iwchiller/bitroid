@@ -1,0 +1,54 @@
+@media screen and (max-width: 1439px) 
+{
+
+ul, li {
+    font-size: 14px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+h1 {
+    font-size: 42px;
+    line-height: 130%;
+}
+
+h2 {
+    font-size: 26px;
+    line-height: 130%;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 130%;
+}
+
+h4 {
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.blur_ellipse {
+    width: 190px;
+    height: 190px;
+    filter: blur(130px);
+}
+
+.desktop_text_l {
+    font-size: 14px;
+}
+
+.dekstop_text_s {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.desktop_text_m {
+    font-size: 14px;
+    line-height: 130%;    
+}
+
+}
