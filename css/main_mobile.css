@@ -232,13 +232,13 @@ input[type="text"] {
 }
 
 .feedback {
-    gap: 10px;
-    margin-left: 0;
-    margin-right: 0;
+    row-gap: 10px;
 }
 
 .feedback button {
-    width: 200px;
+    max-width: 200px;
+    margin-top: 26px;
+    margin-bottom: 0;    
 }
 
 .feedback button::after {

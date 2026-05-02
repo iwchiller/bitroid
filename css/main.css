@@ -404,44 +404,50 @@ line-height: 130%;
 }
 
 .feedback {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 17px 15px;
-    justify-content: space-between;    
+    display: grid;
+    row-gap: 15px;
+    column-gap: 17px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+    "your_name your_phone"
+    "link_site link_site"
+    "send_button send_button"
+    "getoffer_checkbox getoffer_checkbox"
 }
 
 .feedback > .your_name {
-    width: 47%;
+    grid-area: your_name;
 }
 
 .feedback > .your_phone {
-    width: 48%;
+    grid-area: your_phone;
 }
 
 .feedback > .link_site {
-    width: 100%;
+    grid-area: link_site;
 }
 
 .feedback > .send_button {
-    width: 100%;
+    grid-area: send_button;
     text-align: center;
 }
 
 .feedback button {
     width: 225px;
-    margin-top: 18px;
+    margin: 20px auto 26px auto;
 }
 
 .feedback button::after {
     content: 'Получить консультацию';
 }
 
-.getoffer_form > table {
-    width: 100%;
-    border-spacing: 15px 11px;
+.getoffer_checkbox {
+    grid-area: getoffer_checkbox;
 }
 
 .getoffer_form label {
+    max-width: 560px;
     font-weight: 400;
     font-size: 12px;
     line-height: 130%;
@@ -451,7 +457,6 @@ line-height: 130%;
 }
 
 .getoffer_form .getoffer_checkbox {
-    margin-top: 23px;
     display: flex;
     justify-content: left;
     align-items: center;

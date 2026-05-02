@@ -1,8 +1,7 @@
 footer {
     position: relative;
-    padding-top: 41px;
+    padding-top: 35px;
     background: url('../img/footer_background.png') right top no-repeat;
-    height: 793px;
     overflow: hidden;
 }
 
@@ -27,7 +26,7 @@ footer > .get_consultation {
 }
 
 .get_consultation > .buttons > button {
-    width: 225px;
+    width: 220px;
 }
 
 footer > .bottom_menu {
@@ -36,7 +35,7 @@ footer > .bottom_menu {
     margin-top: 70px;
     height: 363px;
     width: 100%;
-    padding: 40px 0 45px 0; 
+    padding: 45px 0 45px 0; 
     border-top: var(--color_gray) solid 1px;
     border-bottom: var(--color_gray) solid 1px;
 }
@@ -118,8 +117,13 @@ footer > .bottom_menu {
     display: flex;
     flex-direction: row;
     justify-content: start;
-    padding-top: 20px;
+    padding-top: 26px;
     padding-bottom: 110px;    
+}
+
+.bottom_copyright p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .bottom_copyright > div {

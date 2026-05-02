@@ -5,9 +5,13 @@
 }
 
 .navigation_section > .logo_block {
+    display: block;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.navigation_section > a:hover {
+    opacity: initial;
+} 
 
 .navigation_section > .menu_block {
     display: flex;

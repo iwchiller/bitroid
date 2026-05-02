@@ -245,21 +245,22 @@ main {
 }
 
 .feedback {
-    gap: 13px 15px;
-    margin-left: 33px;
-    margin-right: 35px;
-}
-
-.feedback > .your_name {
-    width: 100%;
-}
-
-.feedback > .your_phone {
-    width: 100%;
+    max-width: 530px;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas:
+    "your_name"
+    "your_phone"
+    "link_site"
+    "send_button"
+    "getoffer_checkbox"
+    
 }
 
 .feedback button {
-    margin-top: 25px;
+    margin-top: 20px;
+    margin-bottom: 4px;
     width: 250px;
 }
 
@@ -268,8 +269,9 @@ main {
 }
 
 .getoffer_form .getoffer_checkbox {
-    margin-left: 35px;
-    margin-top: 8px;
-}
+    /* margin-left: 35px; */
+    margin: 0 auto;
+    max-width: 470px;
+} 
 
 }
