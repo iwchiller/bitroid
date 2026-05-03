@@ -34,9 +34,15 @@ var sliderGallery = function() {
 		else if( !isMobile && slider ) { // Not mobile but slider built = destroy
 			destroy();
 		}
+		var is_show_menu = $('.menu_block').attr('data-isshow');
+		console.log(is_show_menu);
 
-		if (isDesktop && !isCloseIcon) {
+		if (isDesktop) {
 			$('.menu_block').css('display','flex');
+		} else if ($('.menu_block').attr('data-isshow') === '1') {
+			$('.menu_block').css('display','flex');
+		} else {
+			$('.menu_block').css('display','none');
 		}
 
 	};

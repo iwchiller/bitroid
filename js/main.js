@@ -42,11 +42,13 @@ sliderGallery.init();
     $('.icon_menu').click(function() {
         $('.menu_block').css('display', 'flex');
         $('.icon_close').css('display', 'block');
+        $('.menu_block').attr('data-isshow', '1');
     });
 
     $('.icon_close').click(function() {
         $('.menu_block').css('display', 'none');
         $('.icon_close').css('display', 'none');
+        $('.menu_block').attr('data-isshow', '0');
     });
 
 
