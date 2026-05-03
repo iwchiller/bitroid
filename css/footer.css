@@ -33,7 +33,6 @@ footer > .bottom_menu {
     display: flex;
     flex-direction: row;
     margin-top: 70px;
-    /* height: 363px; */
     width: 100%;
     padding: 45px 0 45px 0; 
     border-top: var(--color_gray) solid 1px;
@@ -47,26 +46,15 @@ footer > .bottom_menu {
 }
 
 .contacts_block > .logo {
-    height: 55px;
+    height: 60px;
 }
 
 .contacts_block > .info_data {
     width: 185px;
-}
-
-.contacts_block > .info_data > .phone {    
-    display: block;
-    margin-top: 6px;
-}
-
-.contacts_block > .info_data > .email {    
-    display: block;
-    margin-top: 6px;
-}
-
-.contacts_block > .info_data > .adress {    
-    display: block;
-    margin-top: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 8px;
 }
 
 .contacts_block > .social_media {
@@ -86,13 +74,11 @@ footer > .bottom_menu {
     justify-content: start;
     width: 175px;
     margin-top: 60px;
-    margin-left: 0;
     gap: 10px;
     font-size: 14px;
 }
 
 .bottom_menu > .column2_block {
-    margin-left: 0;
     width: 298px;
 }
 
@@ -104,7 +90,6 @@ footer > .bottom_menu {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 0;
     width: 230px;
 }
 
@@ -116,7 +101,6 @@ footer > .bottom_menu {
 } 
 
 .bottom_menu > .column4_block {
-    margin-left: 0;
     width: 150px;
 }
 

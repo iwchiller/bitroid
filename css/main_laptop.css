@@ -157,6 +157,24 @@ main {
     padding-bottom: 10px;
 }
 
+case:hover {
+    width: 331px;    
+    height: 173px;
+    box-shadow: none;
+}
+
+.case_left:hover {
+    background: url('../img/cases01.png') right bottom no-repeat #FFFFFF;    
+}
+
+.case_center:hover {
+    background: url('../img/cases02.png') right top no-repeat #FFFFFF;
+}
+
+.case_right:hover {
+    background: url('../img/cases03.png') left top no-repeat #FFFFFF;    
+}
+
 .cases_buttons {
     text-align: center;
 }
