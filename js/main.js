@@ -30,13 +30,11 @@ sliderGallery.init();
         if($(this).children('.icon').text() === '+') {
             $(this).parent().addClass('question_expand');
             $(this).children('.title').addClass('question_title_expand');
-            $(this).children('.icon').addClass('question_icon_expand');
-            $(this).children('.icon').text('—');
+            $(this).children('.icon').addClass('question_icon_expand').text('—');
         } else {
             $(this).parent().removeClass('question_expand');
             $(this).children('.title').removeClass('question_title_expand');
-            $(this).children('.icon').removeClass('question_icon_expand');
-            $(this).children('.icon').text('+');
+            $(this).children('.icon').removeClass('question_icon_expand').text('+');
         };
         $(this).next().toggle('fast');
     });
