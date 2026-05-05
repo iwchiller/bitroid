@@ -38,42 +38,15 @@ footer > .get_consultation {
 footer > .bottom_menu {
     margin-top: 34px;
     padding-top: 30px;
-    flex-wrap: wrap;
     height: auto;
-}
 
-.bottom_menu > .contacts_block {
-    width: 347px;
-    height: 250px;
-}
-
-.bottom_menu > .contacts_block > div > .adress {
-    width: 190px;
-}
-
-.bottom_menu > .column1_block {
-    order: 2;
-    margin-left: 0;
-    margin-top: 0;
-    width: 230px;
-} 
-
-.bottom_menu > .column2_block {
-    order: 3;
-    margin-top: 0;
-    width: 210px;
-} 
-
-.bottom_menu > .column3_block {
-    order: 4;
-    margin-left: 90px;
-    margin-top: 0;
-    width: 145px;
-}
-
-.bottom_menu > .column4_block {
-    order: 1;
-    width: 170px;
+    grid-template-columns: 230px 117px 185px 146px;
+    grid-template-rows: 60px auto auto 38px auto ;
+    grid-template-areas: "logo logo logo logo"
+                        "info_data . column4 ."
+                        "social_media . . ."
+                        ". . . ."
+                        "column1 column2 . column3"
 }
 
 .bottom_copyright {

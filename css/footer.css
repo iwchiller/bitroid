@@ -29,7 +29,7 @@ footer > .get_consultation {
     width: 220px;
 }
 
-footer > .bottom_menu {
+/* footer > .bottom_menu {
     display: flex;
     flex-direction: row;
     margin-top: 70px;
@@ -37,27 +37,46 @@ footer > .bottom_menu {
     padding: 45px 0 45px 0; 
     border-top: var(--color_gray) solid 1px;
     border-bottom: var(--color_gray) solid 1px;
+} */
+footer > .bottom_menu {
+    display: grid;
+    margin-top: 70px;
+    width: 100%;
+    padding: 45px 0 45px 0; 
+    border-top: var(--color_gray) solid 1px;
+    border-bottom: var(--color_gray) solid 1px;
+
+    grid-template-columns: 310px 175px 298px 230px 150px;
+    grid-template-rows: 60px auto auto auto;
+    grid-template-areas: "logo logo logo logo logo"
+                        "info_data column1 column2 column3 column4"
+                        "social_media column1 column2 column3 column4"
+                        ". column1 column2 column3 column4"
 }
 
 .bottom_menu > .contacts_block {
     display: flex;
     flex-direction: column;
-    width: 310px;
 }
 
-.contacts_block > .logo {
-    height: 60px;
+.bottom_menu > .logo {
+    grid-area: logo;
 }
 
-.contacts_block > .info_data {
-    width: 185px;
+.bottom_menu > .info_data  {
+    grid-area: info_data;
     display: flex;
     flex-direction: column;
     justify-content: start;
     gap: 8px;
 }
 
-.contacts_block > .social_media {
+.bottom_menu > .info_data > * {
+    width: 185px;
+}
+
+.bottom_menu > .social_media {
+    grid-area: social_media;
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -72,14 +91,16 @@ footer > .bottom_menu {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    width: 175px;
-    margin-top: 60px;
     gap: 10px;
     font-size: 14px;
 }
 
+.bottom_menu > .column1_block {
+    grid-area: column1;
+}
+
 .bottom_menu > .column2_block {
-    width: 298px;
+    grid-area: column2;
 }
 
 .bottom_menu > .column2_block > * {
@@ -87,10 +108,10 @@ footer > .bottom_menu {
 }
 
 .bottom_menu > .column3_block {
+    grid-area: column3;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 230px;
 }
 
 .column3_block > .top_lines,
@@ -101,10 +122,8 @@ footer > .bottom_menu {
 } 
 
 .bottom_menu > .column4_block {
+    grid-area: column4;
     width: 150px;
-}
-
-.column4_block {
     line-height: 130%;
 }
 
